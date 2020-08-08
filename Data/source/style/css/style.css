@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background-image: linear-gradient(to right, #b2ebf2, #b2ebd3);
+}
+
+.breadcrumb {
+    background-image: linear-gradient(to right, #b2ebf2, #b2ebd3);
+}
+
+.effect-custom {
+    color: #fd00d3;
+}
+
+.effect-custom:hover {
+    color: #1D8C45;
+    animation-name: example;
+    animation-duration: 1.3s;
+}
+
+@keyframes example {
+    from {
+        color: #fd00d3;
+    }
+
+    to {
+        color: #1D8C45;
+    }
+}
+
+.w3-animate-top {
+    position: relative;
+    animation: animatetop 0.9s;
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-left {
+    position: relative;
+    animation: animateleft 0.9s;
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-right {
+    position: relative;
+    animation: animateright 0.9s;
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.9s;
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-zoom {
+    animation: animatezoom 0.9s;
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.img-w-500-h-100 {
+    width: 500px;
+    height: 100px;
+}
+
+.img-w-200-h-100 {
+    width: 200px;
+    height: 100px;
+}
+
+.img-w-200-h-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.index-image-left-top {
+    top: 5px;
+    left: 5px;
+    z-index: -1;
+}
+
+.index-image-right-top {
+    top: 5px;
+    float: right;
+    right: 10px;
+    z-index: -1;
+}
+
+.index-image-bottom-left {
+    bottom: 10px;
+    left: 15px;
+    z-index: -1;
+    /* background-color: aliceblue; */
+}
+
+.index-image-bottom-right {
+    bottom: 10px;
+    right: 10px;
+    /* z-index: -1; */
+}
+
+.container-fluid .image-background {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -10;
+}
+
+.bg-color-custom {
+    background-color: #196565 !important;
+}
+
+/* ---------------------------Calculator ------------------------------- */
+
+.calc-button-input {
+    background: lightGray;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.calc-button-input:active {
+    background-color: #4b0541;
+    box-shadow: 0 5px #f18080;
+    transform: translateY(4px);
+}
+
+.calc-button-input:hover {
+    background-color: #eb22bf;
+    color: white;
+}
+
+.calc-text-input {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+}
